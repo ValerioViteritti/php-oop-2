@@ -1,9 +1,14 @@
-<?php 
+<?php
 
+require_once __DIR__.'/Model/Category.php';
+require_once __DIR__.'/Model/Product.php';
+require_once __DIR__.'/Model/Cibo.php';
+require_once __DIR__.'/Model/Cuccia.php';
 
 
 
 ?>
+
 
 
 <!doctype html>
@@ -32,13 +37,9 @@
         </header>
         <main>
 
-        <div
-            class="container-fluid"
-        >
-            <div
-                class="row-cols-auto justify-content-center align-items-center g-2"
-            >
-                <div class="col">Column</div>
+        <div class="container-fluid">
+            <div class="row-cols-auto justify-content-center align-items-center g-2">
+                
             </div>
             
         </div>
